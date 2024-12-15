@@ -1,1 +1,226 @@
-{"name":"RA12-CCDDEB","date":"04/18/00 19:47:04","uptime":"107d 19:47:04","scale":1,"macaddr":"00:80:A3:CC:DD:EB","devtype":"12","refresh":"5","channel":"0","picvers":"03","reset_button":0,"interval":"60","gtmd_interval":"3600","version":"v3.2.5","port":80,"ip":"10.204.165.2","serial":"RA12-CCDDEB","gtmd_disabled":"0","time_config":{"timezone": "0","format": "0", "display": "0", "daylight_saving_en": "0"},"eth_config":{"mtu":1024,"arpen":1,"negotiate":"Auto"},"sensor":[{"lab":"Internal Sensor","tf":"63.33","tc":"17.41","hf":"78.63","hc":"25.91","lf":"57.74","lc":"14.30","ala":0,"profile":1,"t":16,"en":1},{"lab":"Sensor rack 1","tf":"76.56","tc":"24.76","hf":"90.80","hc":"32.67","lf":"67.33","lc":"19.63","ala":0,"profile":1,"t":38,"en":1,"h":"41.38","hh":"88.43","lh":"37.69","hi":"76.56","hic":"24.75","hhi":"97.99","hhic":"36.66","lhi":"67.33","lhic":"19.62","hen":0,"dpc": "13.04","dpf": "55.47","dphf": "74.13","dphc": "23.41","dplf": "53.74","dplc": "12.08"},{"lab":"Sensor rack 2","tf":"75.18","tc":"23.99","hf":"90.77","hc":"32.65","lf":"67.35","lc":"19.64","ala":0,"profile":1,"t":38,"en":1,"h":"41.72","hh":"75.32","lh":"37.69","hi":"75.18","hic":"23.98","hhi":"97.46","hhic":"36.36","lhi":"67.35","lhic":"19.63","hen":0,"dpc": "12.34","dpf": "54.21","dphf": "73.41","dphc": "23.01","dplf": "52.39","dplc": "11.33"},{"lab":"Sensor rack 3","tf":"73.76","tc":"23.20","hf":"88.88","hc":"31.60","lf":"66.65","lc":"19.25","ala":0,"profile":1,"t":38,"en":1,"h":"44.41","hh":"76.33","lh":"39.03","hi":"73.76","hic":"23.20","hhi":"94.84","hhic":"34.91","lhi":"66.65","lhic":"19.25","hen":0,"dpc": "12.09","dpf": "53.76","dphf": "72.37","dphc": "22.43","dplf": "52.08","dplc": "11.16"},{"lab":"Analog Sensor","volts":"2.15","highv":"2.21","lowv":"0.00","units":{"refmin":"0","refmax":"5","min":"0","max":"5","sym":"V","en":"0"},"ala":0,"profile":1,"t":65,"en":0}],"signal_twr":[{"RE":{"en":0,"stat":0},"OR":{"en":0,"stat":0},"GR":{"en":0,"stat":0},"BL":{"en":0,"stat":0},"WH":{"en":0,"stat":0},"A1":{"en":0,"stat":0},"A2":{"en":0,"stat":0},"RY":{"en":0,"stat":1},"attach_type":0,"lab":"Light Tower","tower_id":1}],"relay":[{"lab":"Relay Output","stat":0,"relay_id":1}],"s_sen":[{"lab":"Ro ri nuoc","en":1,"ala":1,"profile":1,"stat":1},{"lab":"mat nguon 1","en":1,"ala":1,"profile":1,"stat":1},{"lab":"mat nguon 2","en":1,"ala":1,"profile":1,"stat":1},{"lab":"mat nguon 3","en":1,"ala":1,"profile":1,"stat":1}]}
+{
+    "name": "RA12-CCDDEB",
+    "date": "04/18/00 19:47:04",
+    "uptime": "107d 19:47:04",
+    "scale": 1,
+    "macaddr": "00:80:A3:CC:DD:EB",
+    "devtype": "12",
+    "refresh": "5",
+    "channel": "0",
+    "picvers": "03",
+    "reset_button": 0,
+    "interval": "60",
+    "gtmd_interval": "3600",
+    "version": "v3.2.5",
+    "port": 80,
+    "ip": "10.204.165.2",
+    "serial": "RA12-CCDDEB",
+    "gtmd_disabled": "0",
+    "time_config": {
+        "timezone": "0",
+        "format": "0",
+        "display": "0",
+        "daylight_saving_en": "0"
+    },
+    "eth_config": {
+        "mtu": 1024,
+        "arpen": 1,
+        "negotiate": "Auto"
+    },
+    "sensor": [
+        {
+            "lab": "Internal Sensor",
+            "tf": "63.33",
+            "tc": "17.41",
+            "hf": "78.63",
+            "hc": "25.91",
+            "lf": "57.74",
+            "lc": "14.30",
+            "ala": 0,
+            "profile": 1,
+            "t": 16,
+            "en": 1
+        },
+        {
+            "lab": "Sensor rack 1",
+            "tf": "76.56",
+            "tc": "24.76",
+            "hf": "90.80",
+            "hc": "32.67",
+            "lf": "67.33",
+            "lc": "19.63",
+            "ala": 0,
+            "profile": 1,
+            "t": 38,
+            "en": 1,
+            "h": "41.38",
+            "hh": "88.43",
+            "lh": "37.69",
+            "hi": "76.56",
+            "hic": "24.75",
+            "hhi": "97.99",
+            "hhic": "36.66",
+            "lhi": "67.33",
+            "lhic": "19.62",
+            "hen": 0,
+            "dpc": "13.04",
+            "dpf": "55.47",
+            "dphf": "74.13",
+            "dphc": "23.41",
+            "dplf": "53.74",
+            "dplc": "12.08"
+        },
+        {
+            "lab": "Sensor rack 2",
+            "tf": "75.18",
+            "tc": "23.99",
+            "hf": "90.77",
+            "hc": "32.65",
+            "lf": "67.35",
+            "lc": "19.64",
+            "ala": 0,
+            "profile": 1,
+            "t": 38,
+            "en": 1,
+            "h": "41.72",
+            "hh": "75.32",
+            "lh": "37.69",
+            "hi": "75.18",
+            "hic": "23.98",
+            "hhi": "97.46",
+            "hhic": "36.36",
+            "lhi": "67.35",
+            "lhic": "19.63",
+            "hen": 0,
+            "dpc": "12.34",
+            "dpf": "54.21",
+            "dphf": "73.41",
+            "dphc": "23.01",
+            "dplf": "52.39",
+            "dplc": "11.33"
+        },
+        {
+            "lab": "Sensor rack 3",
+            "tf": "73.76",
+            "tc": "23.20",
+            "hf": "88.88",
+            "hc": "31.60",
+            "lf": "66.65",
+            "lc": "19.25",
+            "ala": 0,
+            "profile": 1,
+            "t": 38,
+            "en": 1,
+            "h": "44.41",
+            "hh": "76.33",
+            "lh": "39.03",
+            "hi": "73.76",
+            "hic": "23.20",
+            "hhi": "94.84",
+            "hhic": "34.91",
+            "lhi": "66.65",
+            "lhic": "19.25",
+            "hen": 0,
+            "dpc": "12.09",
+            "dpf": "53.76",
+            "dphf": "72.37",
+            "dphc": "22.43",
+            "dplf": "52.08",
+            "dplc": "11.16"
+        },
+        {
+            "lab": "Analog Sensor",
+            "volts": "2.15",
+            "highv": "2.21",
+            "lowv": "0.00",
+            "units": {
+                "refmin": "0",
+                "refmax": "5",
+                "min": "0",
+                "max": "5",
+                "sym": "V",
+                "en": "0"
+            },
+            "ala": 0,
+            "profile": 1,
+            "t": 65,
+            "en": 0
+        }
+    ],
+    "signal_twr": [
+        {
+            "RE": {
+                "en": 0,
+                "stat": 0
+            },
+            "OR": {
+                "en": 0,
+                "stat": 0
+            },
+            "GR": {
+                "en": 0,
+                "stat": 0
+            },
+            "BL": {
+                "en": 0,
+                "stat": 0
+            },
+            "WH": {
+                "en": 0,
+                "stat": 0
+            },
+            "A1": {
+                "en": 0,
+                "stat": 0
+            },
+            "A2": {
+                "en": 0,
+                "stat": 0
+            },
+            "RY": {
+                "en": 0,
+                "stat": 1
+            },
+            "attach_type": 0,
+            "lab": "Light Tower",
+            "tower_id": 1
+        }
+    ],
+    "relay": [
+        {
+            "lab": "Relay Output",
+            "stat": 0,
+            "relay_id": 1
+        }
+    ],
+    "s_sen": [
+        {
+            "lab": "Ro ri nuoc",
+            "en": 1,
+            "ala": 1,
+            "profile": 1,
+            "stat": 1
+        },
+        {
+            "lab": "mat nguon 1",
+            "en": 1,
+            "ala": 1,
+            "profile": 1,
+            "stat": 1
+        },
+        {
+            "lab": "mat nguon 2",
+            "en": 1,
+            "ala": 1,
+            "profile": 1,
+            "stat": 1
+        },
+        {
+            "lab": "mat nguon 3",
+            "en": 1,
+            "ala": 1,
+            "profile": 1,
+            "stat": 1
+        }
+    ]
+}
