@@ -1,0 +1,114 @@
+name: Tên thiết bị
+date: Ngày thiết lập trên thiết bị
+uptime: Thời gian hoạt động của thiết bị
+scale:
+macaddr: Địa chỉ mac
+devtype: Loại thiết bị Gateway
+refresh: Tần số lấy dữ liệu
+chanel:
+picvers:
+reset_button:
+interval:
+gtmd_interval:
+version: Phiên bản firmware
+port: Cổng
+ip: IP gateway
+serial: Seri gateway
+gtmd_disable:
+time_config: Cấu hình thời gian
+    - timezone: Múi giờ
+    - format: Định dạng
+    - display: Hiển thị
+    - daylay_saving_en: Giờ ban ngày (Giờ hiện tại +1)
+eth_config: Tùy chỉnh cấu hình mạng
+    - mtu:
+    - arpen:
+    - negotiate:
+
+sensor: Các cảm biến
+  + Các cảm biến nhiệt độ:
+    - lab: Tên cảm biến
+    - tf: Nhiệt độ F
+    - tc: Nhiệt độ C
+    - hf: Nhiệt độ F cao nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - hc: Nhiệt độ C cao nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - lf: Nhiệt độ F thấp nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - lc: Nhiệt độ C thấp nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - ala:
+    - profile: Cảnh báo theo profile set sẵn
+    - t:
+    - en:
+    - h: Độ ẩm (%)
+    - hh: Độ ẩm (%) cao nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - lh: Độ ẩm (%) thấp nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - hi: Chỉ số nhiệt (Heat index) (độ F)
+    - hic: Chỉ số nhiệt (Heat index) (độ C)
+    - hhi: Chỉ số nhiệt (Heat index) (độ F) cao nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - hhic: Chỉ số nhiệt (Heat index) (độ C) cao nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - lhi: Chỉ số nhiệt (Heat index) (độ F) thấp nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - lhic: Chỉ số nhiệt (Heat index) (độ C) thấp nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - hen:
+    - dpc: Dew point độ C
+    - dpf: Dew point độ F
+    - dphf: Dew point độ F cao nhất từng được ghi nhận
+    - dphc: Dew point độ C cao nhất từng được ghi nhận
+    - dplf: Dew point độ F thấp nhất từng được ghi nhận
+    - dplc: Dew point độ C thấp nhất từng được ghi nhận
+
+  + Analog sensor
+    - lab: Tên cảm biến
+    - volts: Hiệu điện thế hiện tại (v)
+    - highv: Hiệu điện thế (v) cao nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - lowv: Hiệu điện thế (v) thấp nhất từng được ghi nhận tính từ lúc khởi động Gateway
+    - units:
+      * refmin:
+      * refmax:
+      * min:
+      * max:
+      * sym: Đơn vị hiển thị
+      * en:
+    - ala:
+    - profile
+    - t:
+    - en:
+
+signal_twr:
+  + RE:
+    - en:
+    - stat: Trạng thái
+  + OR:
+    - en:
+    - stat: Trạng thái
+  + GR:
+    - en:
+    - stat: Trạng thái
+  + BL:
+    - en:
+    - stat: Trạng thái
+  + WH:
+    - en:
+    - stat: Trạng thái
+  + A1:
+    - en:
+    - stat: Trạng thái
+  + A2:
+    - en:
+    - stat: Trạng thái
+  + RY:
+    - en:
+    - stat: Trạng thái
+  + attach_type:
+  + lab: Tên cảm biến
+  + tower_id: ID cảm biến
+
+relay: Switch sensors
+    - lab: Tên cảm biến
+    - stat: Trạng thái cảm biến (0 do bị tắt, bật lên thành 1)
+    - relay_id: ID cảm biến
+
+    + s_sen: Switch sensor:
+      * lab: Tên cảm biến
+      * en:
+      * ala:
+      * profile:
+      * stat: Trạng thái
